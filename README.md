@@ -6,16 +6,19 @@
 - 仔细观察，LeetCode 上对每一次代码的提交的 执行时间 && 消耗内存
 - 效率 = 算法效率 + 编程语言效率 + 计算机硬件效率
 - 大O符号 (Big O notation)，又称为渐进符号，是用于描述函数渐近行为的数学符号
-- C++ 语言效率比 Python 语言效率高
+- 计算机语言有两大特性：生产效率 && 运行效率
+- C++ 运行效率比 Python 高；Python 生产效率比 C++ 高
 - 《算法导论》和《算法4》
 
 
 ## C++ 实现 LeetCode 算法题
 - twoSum for CPP : [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
+- regularExpressionMathcing for CPP : [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching)
 
 
 ## Python 实现 LeetCode 算法题
 - twoSum for Python : [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
+- regularExpressionMathcing for Python : [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching)
 
 
 ## 命名约定
