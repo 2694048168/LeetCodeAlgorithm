@@ -12,19 +12,26 @@
 
 
 ## C++ 实现 LeetCode 算法题
-- twoSum for CPP : [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
-- regularExpressionMathcing for CPP : [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching)
+- twoSum : [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
+
+- regularExpressionMathcing : [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching)
+
+- sameTree ：[100. 相同的树](https://leetcode-cn.com/problems/same-tree/)
 
 
 ## Python 实现 LeetCode 算法题
-- twoSum for Python : [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
-- regularExpressionMathcing for Python : [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching)
+- twoSum : [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
+
+- regularExpressionMathcing : [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching)
+
+- sameTree ：[100. 相同的树](https://leetcode-cn.com/problems/same-tree/)
+
 
 
 ## 命名约定
 - 变量名，全部小写，尽量英文单词，做到见名知意，单词之间使用下划线分隔
-- 函数名，首字母大写，尽量英文单词，单词之间使用下划线分隔
-- 类名，首字母大写，尽量英文单词，单词之间不需要使用下划线分隔
+- 函数名，首字母大写，尽量英文单词，单词之间使用下划线分隔，小驼峰命名法
+- 类名，首字母大写，尽量英文单词，单词之间不需要使用下划线分隔，大驼峰命名法
 - 在此中可能使用一些常见的算法的缩写以及约定俗成的写法, 例如，梯度下降算法 GD，不需要的变量 _
 
 
