@@ -140,8 +140,4 @@ class Solution2:
 
 
 if __name__ == "__main__":
-    tree1 = TreeNode(1, 2, 3)
-    tree2 = TreeNode(1, 2, 3)
-
-    solution = Solution1()
-    print(solution.isSameTree(tree1, tree2))
+    pass
