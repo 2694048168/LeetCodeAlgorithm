@@ -15,6 +15,8 @@ using namespace std;
 
 /**
  * 
+ * 时间复杂度：T(n) = big O(N)
+ * 空间复杂度：S(n) = big O(H)
  */
 class Solution 
 {

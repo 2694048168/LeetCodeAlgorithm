@@ -1,6 +1,19 @@
 ![algorithms Logo](./logo.png)
 
 --------------------------------------------------------------------------------
+
+# C++ & Python 实现 LeetCode 算法题
+- minimum_depth_binary_tree : [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
+
+- twoSum : [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
+
+- regularExpressionMathcing : [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching)
+
+- sameTree ：[100. 相同的树](https://leetcode-cn.com/problems/same-tree/)
+
+- find_content_children ：[455. 分发饼干](https://leetcode-cn.com/problems/assign-cookies/)
+
+
 # LeetCode 算法题
 - 时间复杂度和空间复杂度权衡,时间复杂度的提升是以空间复杂度为代价的
 
@@ -22,40 +35,13 @@
 
 - [Google style for Python](https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/contents/)
 
-- 命令一定有一套规范，尽量与普遍的规范一致
+- 命名一定有一套规范，尽量与普遍的规范一致
 
 - 算法或者数据结构的编码实现
     - 首先要弄懂算法或者数据结构的基本原理
     - 然后针对使用的编程语言进行思考
     - 最后动手开始编码
 
-
-# C++ 实现 LeetCode 算法题
-- minimum_depth_binary_tree : [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
-
-- capacity_to_ship_packages_days : [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)
-
-- twoSum : [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
-
-- regularExpressionMathcing : [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching)
-
-- sameTree ：[100. 相同的树](https://leetcode-cn.com/problems/same-tree/)
-
-
-# Python 实现 LeetCode 算法题
-- minimum_depth_binary_tree : [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
-
-- capacity_to_ship_packages_days : [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)
-
-- twoSum : [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
-
-- regularExpressionMathcing : [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching)
-
-- sameTree ：[100. 相同的树](https://leetcode-cn.com/problems/same-tree/)
-
-
-# data_structure 数据结构
-- tree for CPP ：树结构的基本操作
 
 # Example 语法相关例子
 - pyClassWrite : Python语言写一个类的结构
