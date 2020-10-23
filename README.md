@@ -3,6 +3,8 @@
 --------------------------------------------------------------------------------
 
 # C++ & Python 实现 LeetCode 算法题
+- erase_overlap_intervals: [435. 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/)
+
 - candy: [135. 分发糖果](https://leetcode-cn.com/problems/candy/)
 
 - minimum_depth_binary_tree: [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
