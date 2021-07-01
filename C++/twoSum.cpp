@@ -12,6 +12,37 @@
 ** 所以返回 [0, 1]
 */
 
+// 1、指针与常量
+// int x;
+// int * p1 = &x; // 指针可以被修改， 值也可以被修改
+// const int * p2 = &x; // 指针可以被修改， 值不可以被修改（const int）
+// int * const p3 = &x; // 指针不可以被修改（* const）， 值可以被修改
+// const int * const p4 = &x; // 指针不可以被修改， 值也不可以被修改
+
+// 2、指针函数与函数指针
+// addition是指针函数， 一个返回类型是指针的函数
+// int* addition(int a, int b) 
+// {
+//     int* sum = new int(a + b);
+//     return sum;
+// }
+
+// int subtraction(int a, int b) 
+// {
+//     return a - b;
+// }
+
+// int operation(int x, int y, int (*func)(int, int)) 
+// {
+//     return (*func)(x,y);
+// }
+
+// // minus是函数指针， 指向函数的指针
+// int (*minus)(int, int) = subtraction;
+// int* m = addition(1, 2);
+// int n = operation(3, *m, minus);
+
+
 // [include]
 #include <iostream>
 #include <vector>
