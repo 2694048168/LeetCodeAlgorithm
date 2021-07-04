@@ -1,18 +1,16 @@
-#
-# LeetCodeLink: https://leetcode-cn.com/problems/two-sum/
-#
-# 1. 两数之和
-# 给定一个整数数组 nums 和一个目标值 target，
-# 请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标。
-# 你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。
-#
-# 示例:
-# 给定 nums = [2, 7, 11, 15], target = 9
-# 因为 nums[0] + nums[1] = 2 + 7 = 9
-# 所以返回 [0, 1]
-#
+#!/usr/bin/env python3
+# encoding: utf-8
 
+"""
+@Filename: twoSum.py
+@Function: 两数之和
+@Link: https://leetcode-cn.com/problems/two-sum/
+@Python Version: 3.8
+@Author: Wei Li
+@Date：2021-07-04
+"""
 
+# --------------------------------------
 class Solution1:
     """
     暴力穷举法，使用两个 for 循环即可实现
@@ -32,6 +30,7 @@ class Solution1:
                     return [i,j]
     
 
+# ---------------------------------
 class Solution2:
     """
     元素和下标，键值对方式储存,字典数据结构
@@ -59,6 +58,7 @@ class Solution2:
         return ret
 
 
+# ------------------------------
 class Solution3:
     """
     enumerate 遍历 list，
@@ -78,26 +78,21 @@ class Solution3:
             if target - n in dict:
                 return [dict[target-n],i]
             dict[n] = i
-                
+             
+# -----------------------------------------------------
 # The key to the problem is that there is ALWAYS only 1 pair of numbers that satisfy the condition of adding together to be the target value.
 # We can assume that for all the numbers in the list (x1, x2, ... xn) that there exists a pair such that xa + xb = target
 # To solve this with a single pass of the list we can change the equation above to xa = target - xb and since we know the target as long as we maintain a record of all previous values in the list we can compare the current value (xa) to it's ONLY pair, if it exists, in record of all previous values (xb)
 
 # To keep a record of the previous values and their indices I have used a dictionary. Commonly known as a map in other languages. This allows me to record each previous number in the dictionary alongside the indice as a key value pair (target-number, indice).
+# -----------------------------------------------------
+# https://leetcode.com/problems/can-place-flowers/
+# https://leetcode-cn.com/problems/can-place-flowers/
+# 可以查看高手的解答，学习，(中文的-cn/), 国外的高手解答，选择【 Most Votes 】
+# -----------------------------------------------------
 
-class Solution(object):
-	def twoSum(self, nums, target):
-		buffer_dictionary = {}
-        # for i, num in enumerate(nums):
-        # 等价于下面两句
-		for i in rangenums.__len()):
-			if nums[i] in buffer_dictionary:
-				return [buffer_dictionary[nums[i]], i] #if a number shows up in the dictionary already that means the 
-														#necesarry pair has been iterated on previously
-			else: # else is entirely optional
-				buffer_dictionary[target - nums[i]] = i 
-				# we insert the required number to pair with should it exist later in the list of numbers
 
+# --------------------------------
 if __name__ == "__main__":
     nums = [2, 7, 11, 15]
     target = 9
@@ -105,5 +100,3 @@ if __name__ == "__main__":
     # solution = Solution2()
     solution = Solution3()
     print(solution.twoSum(nums, target))
-
-    

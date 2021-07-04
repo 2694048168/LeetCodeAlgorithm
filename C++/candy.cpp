@@ -1,23 +1,19 @@
 /**
- * LeetCodeLink： https://leetcode-cn.com/problems/candy/
- * 
- * 135. 分发糖果
- * 
- */
+ * @File    : candy.cpp
+ * @Brief   : 分发糖果 贪心策略
+ * @Link    : https://leetcode-cn.com/problems/candy/
+ * @Author  : Wei Li
+ * @Date    : 2021-07-04
+*/
+
 
 //![include]
 #include <iostream>
 #include <numeric>
-#include <algorithm>
 #include <vector>
-
-using std::vector;
-using std::max;
-using std::accumulate;
 //![include]
 
 //![solution]
-
 /**
  * 0、只需要简单的两次遍历即可：把所有孩子的糖果数初始化为 1；
  * 1、先从左往右遍历一遍，如果右边孩子的评分比左边的高，
@@ -31,9 +27,9 @@ using std::accumulate;
 class Solution
 {
 public:
-    int candy(vector<int> &ratings)
+    int candy(std::vector<int> &ratings)
     {
-        int size = ratings.size();
+        size_t size = ratings.size();
         // 若只有一个人，则最少需要一个糖果
         if (size < 2)
         {
@@ -41,10 +37,10 @@ public:
         }
 
         // 初始化每个人一个糖果
-        vector<int> num(size, 1);
+        std::vector<int> num(size, 1);
         
         // 第一次遍历，从左往右
-        for (int i = 1; i < size; ++i)
+        for (unsigned int i = 1; i < size; ++i)
         {
             // 如果右边的评分高于左边，则其糖果数量等于其左边的糖果数量 + 1
             if (ratings[i] > ratings[i - 1])
@@ -54,29 +50,33 @@ public:
         }
 
         // 第二次遍历，从右往左
-        for (int i = size - 1; i > 0; --i)
+        for (unsigned int i = size - 1; i > 0; --i)
         {
             // 如果左边的评分高于右边，且左边孩子当前的糖果数不大于右边孩子的糖果数，
             // 则左边孩子的糖果数更新为右边孩子的糖果数 + 1
             if (ratings[i] < ratings[i - 1])
             {
-                num[i - 1] = max(num[i - 1], num[i] + 1);
+                num[i - 1] = std::max(num[i - 1], num[i] + 1);
             }
         }
 
         // 经过两次遍历之后，则满足题目要求了
         // 贪心策略即为，在每次遍历中，只考虑并更新相邻一侧的大小关系
-        return accumulate(num.begin(), num.end(), 0); // std::accumulate 可以很方便的求和
+        return std::accumulate(num.begin(), num.end(), 0); // std::accumulate 可以很方便的求和
     }
 };
-//![solution]
 
-/**
- * @function Main function
- */
-int main(int argc, char **argv)
+
+// ----------------------------------
+int main(int argc, char** argv)
 {
-    // [test]
+    // std::vector<int> ratings = {2, 3, 1, 3, 7, 3};
+    // std::vector<int> ratings = {1, 0, 2};
+    std::vector<int> ratings = {1, 2, 2};
 
+    auto solution = Solution();
+    auto array_candy = solution.candy(ratings);
+    std::cout << "The solution of this porblem is : " << array_candy << std::endl;
+    
     return 0;
 }

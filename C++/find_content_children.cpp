@@ -1,18 +1,17 @@
 /**
- * LeetCodeLink: https://leetcode-cn.com/problems/assign-cookies/
- * 
- * 455. 分发饼干
- * 
- */
+ * @File    : find_content_children.cpp
+ * @Brief   : 分发饼干 贪心策略(每个局部之间要求独立，不相关)
+ * @Link    : https://leetcode-cn.com/problems/assign-cookies/
+ * @Author  : Wei Li
+ * @Date    : 2021-07-04
+*/
 
 //![include]
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
-using std::vector;
-using std::sort;
 //![include]
+
 
 //![solution]
 /**
@@ -26,14 +25,15 @@ using std::sort;
  * 注意 若谈论的是对连续空间的变量进行操作，并不会明确区分数组和字符串，
  * 因为本质上都是在连续空间上的有序变量集合。
  */
-class Solution {
+class Solution 
+{
 public:
-    int findContentChildren(vector<int>& children, vector<int>& cookies) 
+    int findContentChildren(std::vector<int>& children, std::vector<int>& cookies) 
     {
-        sort(children.begin(), children.end());
-        sort(cookies.begin(), cookies.end());
+        std::sort(children.begin(), children.end());
+        std::sort(cookies.begin(), cookies.end());
         
-        int child = 0, cookie = 0;
+        unsigned int child = 0, cookie = 0;
         while (child < children.size() && cookie < cookies.size()) 
         {
             // 满足条件的情况
@@ -43,7 +43,23 @@ public:
             } 
             ++cookie;
         }
-
         return child;
     }
 };
+
+
+// --------------------------------
+int main(int argc, char** argv)
+{
+    // std::vector<int> children = {1, 3, 4, 2};
+    // std::vector<int> cookies = {6, 2, 3, 5};
+
+    std::vector<int> children = {1, 3, 2};
+    std::vector<int> cookies = {1, 1};
+
+    auto solution = Solution();
+    auto num_child = solution.findContentChildren(children, cookies);
+    std::cout << "The solution of this problem is : " << num_child << std::endl;
+
+    return 0;
+}

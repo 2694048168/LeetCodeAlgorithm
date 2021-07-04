@@ -1,10 +1,17 @@
-#
-# LeetCodeLink： https://leetcode-cn.com/problems/candy/
-#
-# 135. 分发糖果
-#
+#!/usr/bin/env python3
+# encoding: utf-8
 
-class Solution:
+"""
+@Filename: candy.py
+@Function: 分发糖果 贪心策略
+@Link: https://leetcode-cn.com/problems/candy/
+@Python Version: 3.8
+@Author: Wei Li
+@Date：2021-07-04
+"""
+
+# --------------------------------------------------------------
+class Solution2:
     """0、只需要简单的两次遍历即可：把所有孩子的糖果数初始化为 1；
     1、先从左往右遍历一遍，如果右边孩子的评分比左边的高，
        则右边孩子的糖果数更新为左边孩子的糖果数加 1；
@@ -14,7 +21,7 @@ class Solution:
 
    这里的贪心策略即为，在每次遍历中，只考虑并更新相邻一侧的大小关系。
     """
-    def candy(self, ratings: List[int]) -> int:
+    def candy(self, ratings):
         # 若只有一个人，则最少需要一个糖果
         if len(ratings) < 2:
             return len(ratings)
@@ -44,11 +51,11 @@ class Solution:
             count += max(left[i], right[i])
         return count
 
-
+# --------------------------------------------------------------
 class Solution:
-    def candy(self, ratings: List[int]) -> int:
+    def candy(self, ratings):
         # 初始化每个人一个糖果 
-        nums = [1]*len(ratings)
+        nums = [1] * len(ratings)
 
         # 第一次遍历，从左往右
         for i in range(0, len(ratings)-1):
@@ -57,7 +64,7 @@ class Solution:
                 nums[i+1] = nums[i] + 1
 
         # 第二次遍历，从右往左        
-        for i in range(len(ratings)-1,0,-1):
+        for i in range(len(ratings)-1, 0, -1):
             # 如果左边的评分高于右边，
             if ratings[i] < ratings[i-1]:
                 # 且左边孩子当前的糖果数不大于右边孩子的糖果数
@@ -68,4 +75,9 @@ class Solution:
 
 
 if __name__ == "__main__":
-    pass
+    ratings = [1, 0, 2]
+    # ratings = [1, 2, 2]
+
+    solution = Solution()
+    num_candy = solution.candy(ratings)
+    print(f"The solution of this problem is : {num_candy}")
