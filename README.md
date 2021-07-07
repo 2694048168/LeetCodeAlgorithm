@@ -26,6 +26,9 @@
 ## 双指针
 
 - twoSum2: [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
+- merge: [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
+- detectCycle: [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
+- minWindow: [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
 
 
 -----------------------------------------------------
