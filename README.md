@@ -29,6 +29,14 @@
 - merge: [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
 - detectCycle: [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 - minWindow: [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
+- judgeSquareSum: [633. 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/)
+- validPalindrome: [680. 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)
+- findLongestWord: [524. 通过删除字母匹配到字典里最长单词](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
+
+## 二分查找
+
+- mySqrt: [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+
 
 
 -----------------------------------------------------
