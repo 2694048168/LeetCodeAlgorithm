@@ -36,6 +36,8 @@
 ## 二分查找
 
 - mySqrt: [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+- searchRange: [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- search: [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
 
 
 
