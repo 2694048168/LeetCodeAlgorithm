@@ -38,6 +38,13 @@
 - mySqrt: [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
 - searchRange: [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 - search: [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
+- findMin: [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+- singleNonDuplicate: [540. 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)
+- findMedianSortedArrays: [4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
+
+## 排序算法
+
+- common_sort_algorithms: 快速排序；归并排序；插入排序；冒泡排序；选择排序
 
 
 
