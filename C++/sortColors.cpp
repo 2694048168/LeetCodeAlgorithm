@@ -9,6 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <memory>
 
 class Solution
 {
@@ -47,8 +48,11 @@ int main(int argc, char **argv)
 {
     std::vector<int> nums = {2, 0, 2, 1, 1, 0};
 
-    auto solution = Solution();
-    solution.sortColors(nums);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    solution->sortColors(nums);
+    // solution.sortColors(nums);
     DisplayElement(nums);
 
     return 0;

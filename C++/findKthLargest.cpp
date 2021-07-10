@@ -10,6 +10,7 @@
 #include <vector>
 #include <algorithm>
 #include <ctime>
+#include <memory>
 
 // 方法一：基于快速排序的选择方法
 class Solution
@@ -109,8 +110,11 @@ int main(int argc, char **argv)
     std::vector<int> nums = {3, 2, 3, 1, 2, 4, 5, 5, 6};
     int k = 4;
 
-    auto solution = Solution();
-    auto kth_largest = solution.findKthLargest(nums, k);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    // auto kth_largest = solution.findKthLargest(nums, k);
+    auto kth_largest = solution->findKthLargest(nums, k);
     std::cout << "The solution of this problem is : " << kth_largest << std::endl;
 
     return 0;

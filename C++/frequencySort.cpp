@@ -11,6 +11,7 @@
 #include <vector>
 #include <unordered_map>
 #include <algorithm>
+#include <memory>
 
 /**
 方法二：桶排序
@@ -60,8 +61,11 @@ int main(int argc, char **argv)
     // std::string str = "cccaaa";
     std::string str = "Aabb";
 
-    auto solution = Solution();
-    std::string fre_str = solution.frequencySort(str);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    std::string fre_str = solution->frequencySort(str);
+    // std::string fre_str = solution.frequencySort(str);
     std::cout << "The solution of this problem is : " << fre_str << std::endl;
 
     return 0;

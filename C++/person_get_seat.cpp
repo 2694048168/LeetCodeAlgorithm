@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include <memory>
 
 // probability = f(n) = 1 if n=1 else 1/2
 class Solution
@@ -20,14 +21,16 @@ public:
     }
 };
 
-
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
     // 飞机乘客数 [1, 10^5]
     const unsigned int num_person = 100;
 
-    auto solution = Solution(); 
-    auto probability = solution.nthPersonGetsNthSeat(num_person);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    auto probability = solution->nthPersonGetsNthSeat(num_person);
+    // auto probability = solution.nthPersonGetsNthSeat(num_person);
 
     std::cout << "The Probability of the n-th passenger sitting in his seat: " << probability << std::endl;
 

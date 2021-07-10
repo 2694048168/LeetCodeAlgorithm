@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include <memory>
 
 // -----------------
 class Solution
@@ -32,8 +33,11 @@ int main(int argc, char** argv)
     // std::vector<int> prices = {7, 1, 5, 3, 6, 4};
     std::vector<int> prices = {1, 2, 3, 4, 5};
 
-    auto solution = Solution();
-    size_t max_profit = solution.maxProfit(prices);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    size_t max_profit = solution->maxProfit(prices);
+    // size_t max_profit = solution.maxProfit(prices);
     std::cout << "The solution of this problem is : " << max_profit << std::endl;
 
     return 0;

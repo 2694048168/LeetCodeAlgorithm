@@ -11,6 +11,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <memory>
 
 
 // ---------------------------------
@@ -87,8 +88,11 @@ int main(int argc, char **argv)
     // std::vector<std::vector<int>> intervals = {{1,2}, {1,2}, {1,2}};
     std::vector<std::vector<int>> intervals = {{1,2}, {2,3}};
 
-    auto solution = Solution();
-    auto num_ntervals = solution.eraseOverlapIntervals(intervals);
+    // auto solution = Solution();
+    auto solution = std::make_unique<Solution>();
+    // Solution solution;
+    // auto num_ntervals = solution.eraseOverlapIntervals(intervals);
+    auto num_ntervals = solution->eraseOverlapIntervals(intervals);
     std::cout << "The solution of this problem is :" << num_ntervals << std::endl;
 
     return 0;

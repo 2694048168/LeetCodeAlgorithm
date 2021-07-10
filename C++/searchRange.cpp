@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include <memory>
 
 class Solution
 {
@@ -86,8 +87,11 @@ int main(int argc, char **argv)
     int target = 8;
     // int target = 6;
 
-    auto solution = Solution();
-    auto index_target = solution.searchRange(nums, target);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    auto index_target = solution->searchRange(nums, target);
+    // auto index_target = solution.searchRange(nums, target);
     DisplayElement(index_target);
 
     return 0;

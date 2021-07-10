@@ -9,6 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
+#include <memory>
 
 class Solution
 {
@@ -60,8 +61,11 @@ int main(int argc, char **argv)
     std::vector<int> nums = {1, 1, 1, 2, 2, 3};
     int k = 2;
 
-    auto solution = Solution();
-    auto topk_value = solution.topKFrequent(nums, k);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    auto topk_value = solution->topKFrequent(nums, k);
+    // auto topk_value = solution.topKFrequent(nums, k);
     DisplayElement(topk_value);
 
     return 0;

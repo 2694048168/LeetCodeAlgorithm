@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <vector>
-
+#include <memory>
 
 class Solution
 {
@@ -63,8 +63,11 @@ int main(int argc, char** argv)
     int target = -1;
     // --------TEST Case-----------
 
-    auto solution = Solution();
-    auto index = solution.twoSum(numbers, target);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    auto index = solution->twoSum(numbers, target);
+    // auto index = solution.twoSum(numbers, target);
     std::cout << "The solution of this problem is : " << std::end;
     DisplayContents(index);
     

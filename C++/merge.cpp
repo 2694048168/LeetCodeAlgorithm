@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include <memory>
 
 
 // --------------------------------------------------------------------------------------------
@@ -55,8 +56,11 @@ int main(int argc, char** argv)
 
     std::cout << "------------Before merging------------" << std::endl;
     DisplayElement(num1);
-    auto solution = Solution();
-    solution.merge(num1, m, num2, n);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    solution->merge(num1, m, num2, n);
+    // solution.merge(num1, m, num2, n);
     std::cout << "------------After merging------------" << std::endl;
     DisplayElement(num1);
     

@@ -10,6 +10,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <memory>
 //![include]
 
 
@@ -57,8 +58,11 @@ int main(int argc, char** argv)
     std::vector<int> children = {1, 3, 2};
     std::vector<int> cookies = {1, 1};
 
-    auto solution = Solution();
-    auto num_child = solution.findContentChildren(children, cookies);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    // auto num_child = solution.findContentChildren(children, cookies);
+    auto num_child = solution->findContentChildren(children, cookies);
     std::cout << "The solution of this problem is : " << num_child << std::endl;
 
     return 0;

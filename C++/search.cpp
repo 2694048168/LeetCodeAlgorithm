@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <vector>
-
+#include <memory>
 
 /**
  * 即使数组被旋转过，仍然可以利用这个数组的递增性，使用二分查找。
@@ -80,8 +80,11 @@ int main(int argc, char **argv)
     std::vector<int> nums = {2, 5, 6, 0, 0, 1, 2};
     int target = 3;
 
-    auto solution = Solution();
-    bool check = solution.search(nums, target);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    bool check = solution->search(nums, target);
+    // bool check = solution.search(nums, target);
     std::cout << "The solution of this problem is : " << std::boolalpha << check << std::endl;
 
     return 0;

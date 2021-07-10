@@ -10,7 +10,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-
+#include <memory>
 
 // --------------
 class Solution
@@ -59,8 +59,11 @@ int main(int argc, char** argv)
 {
     std::string str = "ababcbacadefegdehijhklij";
 
-    auto solution = Solution();    
-    auto vec_partition = solution.partitionLabels(str);
+    // auto solution = Solution();    
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();    
+    auto vec_partition = solution->partitionLabels(str);
+    // auto vec_partition = solution.partitionLabels(str);
     std::cout << "The solution of this problem is : " << std::endl;
     DisplayContents(vec_partition);
 

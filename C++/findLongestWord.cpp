@@ -10,6 +10,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <memory>
 
 
 class Solution
@@ -68,8 +69,11 @@ int main(int argc, char** argv)
     // std::vector<std::string> dictionary = {"ale", "apple", "monkey", "plea"};
     std::vector<std::string> dictionary = {"a", "b", "c"};
 
-    auto solution = Solution();
-    std::string longest_word = solution.findLongestWord(str, dictionary);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    // std::string longest_word = solution.findLongestWord(str, dictionary);
+    std::string longest_word = solution->findLongestWord(str, dictionary);
     std::cout << "The solution of this problem is : " << longest_word << std::endl;
     
     return 0;

@@ -9,7 +9,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
+#include <memory>
 
 // 思路二：滑动窗口 + 字符数组
 class Solution
@@ -75,8 +75,11 @@ int main(int argc, char **argv)
 {
     std::string s = "ADOBECODEBANC", t = "ABC";
 
-    auto solution = Solution();
-    std::string min_str = solution.minWindow(s, t);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    std::string min_str = solution->minWindow(s, t);
+    // std::string min_str = solution.minWindow(s, t);
     DisplayElement(min_str);
 
     return 0;

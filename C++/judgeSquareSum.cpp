@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <cmath>
+#include <memory>
 
 class Solution
 {
@@ -46,8 +47,11 @@ int main(int argc, char** argv)
     // int c = 2;
     // int c = 1;
 
-    auto solution = Solution();
-    bool check = solution.judgeSquareSum(c);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    bool check = solution->judgeSquareSum(c);
+    // bool check = solution.judgeSquareSum(c);
     std::cout << "The solution of this problem is : " << std::boolalpha << check << std::endl;
     
     return 0;

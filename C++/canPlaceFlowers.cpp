@@ -9,7 +9,7 @@
 // ------------------
 #include <iostream>
 #include <vector>
-
+#include <memory>
 
 // -----------------
 class Solution
@@ -67,8 +67,11 @@ int main(int argc, char** argv)
     const unsigned int n = 2;
     // const unsigned int n = 1;
 
-    auto solution = Solution();
-    bool placed = solution.canPlaceFlowers(flowerbed, n);
+    // auto solution = Solution();
+    auto solution = std::make_unique<Solution>();
+    // Solution solution;
+    // bool placed = solution.canPlaceFlowers(flowerbed, n);
+    bool placed = (*solution).canPlaceFlowers(flowerbed, n);
     std::cout << "The solution of this problem is : " << std::boolalpha << placed << std::endl;
     
     return 0;

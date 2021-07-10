@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <string>
+#include <memory>
 
 class Solution
 {
@@ -51,8 +52,11 @@ int main(int argc, char **argv)
     std::string str = "aba";
     // std::string str = "abca";
 
-    auto solution = Solution();
-    bool check = solution.validPalindrome(str);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    bool check = solution->validPalindrome(str);
+    // bool check = solution.validPalindrome(str);
     std::cout << "The solution of this problem is : " << std::boolalpha << check << std::endl;
     
     return 0;

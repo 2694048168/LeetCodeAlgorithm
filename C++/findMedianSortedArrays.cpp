@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include <memory>
 
 // ---------------------------------------
 class Solution
@@ -140,8 +141,11 @@ int main(int argc, char** argv)
     std::vector<int> nums1 = {3};
 
     // auto solution = Solution();
-    auto solution = Solution2();
-    auto medianValue = solution.findMedianSortedArrays(nums1, nums2);
+    // auto solution = Solution2();
+    // Solution solution;
+    auto solution = std::make_unique<Solution2>();
+    // auto medianValue = solution.findMedianSortedArrays(nums1, nums2);
+    auto medianValue = solution->findMedianSortedArrays(nums1, nums2);
     std::cout << "The median value of sorted nums1 and nums2 is : " << medianValue << std::endl;
 
     return 0;

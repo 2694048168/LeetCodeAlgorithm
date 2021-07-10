@@ -7,6 +7,7 @@
 */
 
 #include <iostream>
+#include <memory>
 
 class Solution
 {
@@ -70,8 +71,11 @@ int main(int argc, char **argv)
     // int x = 4;
     int x = 8;
 
-    auto solution = Solution();
-    auto num_sqrt = solution.mySqrt(x);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    auto num_sqrt = solution->mySqrt(x);
+    // auto num_sqrt = solution.mySqrt(x);
     std::cout << "The solution of this problem is : " << num_sqrt << std::endl;
 
     return 0;

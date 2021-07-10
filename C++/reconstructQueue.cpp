@@ -9,6 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <memory>
 
 class Solution
 {
@@ -62,8 +63,11 @@ int main(int argc, char **argv)
     std::vector<std::vector<int>> people = {{7, 0}, {4, 4}, {7, 1}, {5, 0}, {6, 1}, {5, 2}};
     // std::vector<std::vector<int>> people = {{6, 0}, {5, 0}, {4, 0}, {3, 2}, {2, 2}, {1, 4}};
 
-    auto solution = Solution();
-    auto reconstruct_queue = solution.reconstructQueue(people);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    auto reconstruct_queue = solution->reconstructQueue(people);
+    // auto reconstruct_queue = solution.reconstructQueue(people);
     DisplayContents(reconstruct_queue);
 
     return 0;

@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <vector>
-
+#include <memory>
 
 class Solution {
 public:
@@ -63,8 +63,11 @@ int main(int argc, char** argv)
     // 骰子的个数 [1, 11]
     const int num_saizi = 1;
 
-    auto solution = Solution(); 
-    auto probability_array = solution.dicesProbability(num_saizi);
+    // auto solution = Solution(); 
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    // auto probability_array = solution.dicesProbability(num_saizi);
+    auto probability_array = solution->dicesProbability(num_saizi);
 
     DisplayContents(probability_array);
     

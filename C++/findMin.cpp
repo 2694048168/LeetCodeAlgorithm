@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include <memory>
 
 // 二分查找算法适合排序好的数组进行检索或查找
 class Solution
@@ -42,8 +43,11 @@ int main(int argc, char **argv)
     // std::vector<int> nums = {1, 3, 5};
     std::vector<int> nums = {2, 2, 2, 0, 1};
 
-    auto solution = Solution();
-    int value_min = solution.findMin(nums);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    int value_min = solution->findMin(nums);
+    // int value_min = solution.findMin(nums);
     std::cout << "The solution of this problem is : " << value_min << std::endl;
 
     return 0;

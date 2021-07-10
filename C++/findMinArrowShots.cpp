@@ -9,7 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
+#include <memory>
 
 // ----------------
 class Solution
@@ -57,8 +57,11 @@ int main(int argc, char** argv)
     // std::vector<std::vector<int>> points = {{2, 3}, {2, 3}};
     std::vector<std::vector<int>> points = {{1, 2}};
 
-    auto solution = Solution();
-    unsigned int num_shoots = solution.findMinArrowShots(points);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    // unsigned int num_shoots = solution.findMinArrowShots(points);
+    unsigned int num_shoots = solution->findMinArrowShots(points);
     std::cout << "The solution of this problem is : " << num_shoots << std::endl;
     
     return 0;

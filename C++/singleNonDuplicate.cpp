@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <vector>
-
+#include <memory>
 
 class Solution
 {
@@ -84,8 +84,11 @@ int main(int argc, char **argv)
     std::vector<int> nums = {1,1,2,3,3,4,4,8,8};
     // std::vector<int> nums = {3,3,7,7,10,11,11};
 
-    auto solution = Solution();
-    int odd_value = solution.singleNonDuplicate(nums);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    int odd_value = solution->singleNonDuplicate(nums);
+    // int odd_value = solution.singleNonDuplicate(nums);
     std::cout << "The solution of this problem is : " << odd_value << std::endl;
 
     return 0;

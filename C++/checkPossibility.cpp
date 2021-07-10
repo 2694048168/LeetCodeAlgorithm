@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <vector>
-
+#include <memory>
 
 class Solution
 {
@@ -43,8 +43,11 @@ int main(int argc, char** argv)
     // std::vector<int> vec_nums = {4, 2, 3};
     std::vector<int> vec_nums = {4, 2, 1};
 
-    auto solution = Solution();
-    bool check_ok = solution.checkPossibility(vec_nums);
+    // auto solution = Solution();
+    // Solution solution;
+    auto solution = std::make_unique<Solution>();
+    // bool check_ok = solution.checkPossibility(vec_nums);
+    bool check_ok = solution->checkPossibility(vec_nums);
     std::cout << "The solution of this problem is : " << std::boolalpha << check_ok << std::endl;
     
     return 0;

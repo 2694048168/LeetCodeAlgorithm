@@ -11,6 +11,7 @@
 #include <iostream>
 #include <numeric>
 #include <vector>
+#include <memory>
 //![include]
 
 //![solution]
@@ -74,8 +75,12 @@ int main(int argc, char** argv)
     // std::vector<int> ratings = {1, 0, 2};
     std::vector<int> ratings = {1, 2, 2};
 
-    auto solution = Solution();
-    auto array_candy = solution.candy(ratings);
+    // auto solution = Solution();  // 基于堆实例化类对象，但是没有智能指针
+    auto solution = std::make_unique<Solution>();  // 基于堆实例化类对象，同时使用智能指针
+    // Solution solution; // 基于堆栈实例化类对象
+    // auto array_candy = solution.candy(ratings);
+    // auto array_candy = (*solution).candy(ratings);
+    auto array_candy = solution->candy(ratings);
     std::cout << "The solution of this porblem is : " << array_candy << std::endl;
     
     return 0;

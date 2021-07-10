@@ -10,6 +10,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <memory>
 
 
 class Solution
@@ -58,12 +59,15 @@ int main(int argc, char** argv)
     // case 5
     std::vector<int> scores5 = {1, 2, 2, 2, 3, 4, 4, 5};
 
-    auto solution = Solution();
+    // auto solution = Solution();
+    auto solution = std::make_unique<Solution>();
+    // Solution solution;
     // int unique_num = solution.expectNumber(scores1);
     // int unique_num = solution.expectNumber(scores2);
     // int unique_num = solution.expectNumber(scores3);
     // int unique_num = solution.expectNumber(scores4);
-    int unique_num = solution.expectNumber(scores5);
+    // int unique_num = solution.expectNumber(scores5);
+    int unique_num = solution->expectNumber(scores5);
     std::cout << "The unique element number of array: " << unique_num << std::endl;
 
     return 0;
