@@ -45,7 +45,14 @@
 ## 排序算法
 
 - common_sort_algorithms: 快速排序；归并排序；插入排序；冒泡排序；选择排序
+- findKthLargest: [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
+- topKFrequent: [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)
+- frequencySort: [3451. 根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
+- sortColors: [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/)
 
+## 搜索算法
+
+- 深度优先搜索(depth-first seach, DFS) && 广度优先搜索(Breadth first search, BFS)
 
 
 -----------------------------------------------------
