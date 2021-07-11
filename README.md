@@ -53,6 +53,15 @@
 ## 搜索算法
 
 - 深度优先搜索(depth-first seach, DFS) && 广度优先搜索(Breadth first search, BFS)
+- maxAreaOfIsland: [695. 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)
+- findCircleNum: [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)
+- pacificAtlantic: [417. 太平洋大西洋水流问题](https://leetcode-cn.com/problems/pacific-atlantic-water-flow/)
+- permute: [46. 全排列](https://leetcode-cn.com/problems/permutations/)
+- combine: [77. 组合](https://leetcode-cn.com/problems/combinations/)
+- exist: [79. 单词搜索](https://leetcode-cn.com/problems/word-search/)
+- solveNQueens: [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)
+- shortestBridge: [934. 最短的桥](https://leetcode-cn.com/problems/shortest-bridge/)
+- findLadders: [126. 单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)
 
 
 -----------------------------------------------------
