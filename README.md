@@ -62,6 +62,15 @@
 - solveNQueens: [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)
 - shortestBridge: [934. 最短的桥](https://leetcode-cn.com/problems/shortest-bridge/)
 - findLadders: [126. 单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)
+- solve: [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)
+- binaryTreePaths: [257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)
+- permuteUnique: [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/)
+- combinationSum2: [40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)
+- solveSudoku: [37. 解数独](https://leetcode-cn.com/problems/sudoku-solver/)
+- findMinHeightTrees: [310. 最小高度树](https://leetcode-cn.com/problems/minimum-height-trees/)
+
+
+## 动态规划
 
 
 -----------------------------------------------------

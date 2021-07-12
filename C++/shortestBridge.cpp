@@ -46,7 +46,7 @@ public:
             int n_points = points.size();
             while (n_points--)
             {
-                // auto [r, c] = points.front(); // c++17
+                // auto [r, c] = points.front(); // c++17 结构化绑定
                 auto r = points.front().first;
                 auto c = points.front().second;
                 points.pop();
