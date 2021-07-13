@@ -72,6 +72,11 @@
 
 ## 动态规划
 
+- climbStairs: [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
+- rob: [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
+- numberOfArithmeticSlices: [413. 等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/)
+
+
 
 -----------------------------------------------------
 
