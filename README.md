@@ -75,6 +75,9 @@
 - climbStairs: [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
 - rob: [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
 - numberOfArithmeticSlices: [413. 等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/)
+- minPathSum: [64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)
+- updateMatrix: [542. 01 矩阵](https://leetcode-cn.com/problems/01-matrix/)
+- maximalSquare: [221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/)
 
 
 
