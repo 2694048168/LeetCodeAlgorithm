@@ -78,6 +78,7 @@
 - minPathSum: [64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)
 - updateMatrix: [542. 01 矩阵](https://leetcode-cn.com/problems/01-matrix/)
 - maximalSquare: [221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/)
+- numSquares: [279. 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
 
 
 
