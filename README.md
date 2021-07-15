@@ -81,6 +81,11 @@
 - numSquares: [279. 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
 - numDecodings: [91. 解码方法](https://leetcode-cn.com/problems/decode-ways/)
 - wordBreak: [139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
+- lengthOfLIS: [300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+- longestCommonSubsequence: [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)
+- canPartition: [416. 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/)
+- findMaxForm: [474. 一和零](https://leetcode-cn.com/problems/ones-and-zeroes/)
+- coinChange: [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
 
 
 

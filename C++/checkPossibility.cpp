@@ -45,10 +45,15 @@ int main(int argc, char** argv)
 
     // auto solution = Solution();
     // Solution solution;
-    auto solution = std::make_unique<Solution>();
     // bool check_ok = solution.checkPossibility(vec_nums);
+    // auto solution = std::make_unique<Solution>();
+    // bool check_ok = solution->checkPossibility(vec_nums);
+    Solution* solution = new Solution();
     bool check_ok = solution->checkPossibility(vec_nums);
     std::cout << "The solution of this problem is : " << std::boolalpha << check_ok << std::endl;
+
+    delete solution;
+    solution = nullptr;
     
     return 0;
 }
