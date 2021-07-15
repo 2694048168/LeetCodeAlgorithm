@@ -79,6 +79,8 @@
 - updateMatrix: [542. 01 矩阵](https://leetcode-cn.com/problems/01-matrix/)
 - maximalSquare: [221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/)
 - numSquares: [279. 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
+- numDecodings: [91. 解码方法](https://leetcode-cn.com/problems/decode-ways/)
+- wordBreak: [139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
 
 
 
