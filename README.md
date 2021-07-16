@@ -86,7 +86,22 @@
 - canPartition: [416. 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/)
 - findMaxForm: [474. 一和零](https://leetcode-cn.com/problems/ones-and-zeroes/)
 - coinChange: [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
+- minDistance: [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/)
+- minSteps: [650. 只有两个键的键盘](https://leetcode-cn.com/problems/2-keys-keyboard/)
+- isMatch: [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/)
+- maxProfitChance: [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+- maxProfitChance2: [188. 买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)
+- maxProfitChanceCooldown: [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+- rob2: [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)
+- maxSubArray: [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+- integerBreak: [343. 整数拆分](https://leetcode-cn.com/problems/integer-break/)
+- minDistanceDelete: [583. 两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/)
+- findLongestChain: [646. 最长数对链](https://leetcode-cn.com/problems/maximum-length-of-pair-chain/)
+- wiggleMaxLength: [376. 摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/)
+- findTargetSumWays: [494. 目标和](https://leetcode-cn.com/problems/target-sum/)
+- maxProfitFree: [714. 买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
 
+## 分治策略
 
 
 -----------------------------------------------------
