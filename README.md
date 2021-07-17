@@ -103,6 +103,13 @@
 
 ## 分治策略
 
+- diffWaysToCompute: [241. 为运算表达式设计优先级](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/)
+- beautifulArray: [932. 漂亮数组](https://leetcode-cn.com/problems/beautiful-array/)
+- maxCoins: [312. 戳气球](https://leetcode-cn.com/problems/burst-balloons/)
+
+## 数学问题
+
+
 
 -----------------------------------------------------
 
