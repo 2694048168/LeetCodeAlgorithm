@@ -109,6 +109,11 @@
 
 ## 数学问题
 
+- countPrimes: [204. 计数质数](https://leetcode-cn.com/problems/count-primes/)
+- convertToBase7: [504. 七进制数](https://leetcode-cn.com/problems/base-7/)
+- trailingZeroes: [172. 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)
+- addStrings: [415. 字符串相加](https://leetcode-cn.com/problems/add-strings/)
+
 
 
 -----------------------------------------------------
