@@ -113,6 +113,10 @@
 - convertToBase7: [504. 七进制数](https://leetcode-cn.com/problems/base-7/)
 - trailingZeroes: [172. 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)
 - addStrings: [415. 字符串相加](https://leetcode-cn.com/problems/add-strings/)
+- isPowerOfThree: [326. 3的幂](https://leetcode-cn.com/problems/power-of-three/)
+- shuffleReset: [384. 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/)
+- pickIndex: [528. 按权重随机选择](https://leetcode-cn.com/problems/random-pick-with-weight/)
+- getRandom: [382. 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/)
 
 
 
