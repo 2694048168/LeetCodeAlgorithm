@@ -117,6 +117,14 @@
 - shuffleReset: [384. 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/)
 - pickIndex: [528. 按权重随机选择](https://leetcode-cn.com/problems/random-pick-with-weight/)
 - getRandom: [382. 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/)
+- convertToTitle: [168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/)
+- addBinary: [67. 二进制求和](https://leetcode-cn.com/problems/add-binary/)
+- productExceptSelf: [238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/)
+- minMoves2: [462. 最少移动次数使数组元素相等 II](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements-ii/)
+- majorityElement: [169. 多数元素](https://leetcode-cn.com/problems/majority-element/)
+- isHappy: [202. 快乐数](https://leetcode-cn.com/problems/happy-number/)
+
+## 位运算操作
 
 
 
