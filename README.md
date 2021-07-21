@@ -126,6 +126,13 @@
 
 ## 位运算操作
 
+- hammingDistance: [461. 汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
+- reverseBits: [190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)
+- singleNumber: [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
+- isPowerOfFour: [342. 4的幂](https://leetcode-cn.com/problems/power-of-four/)
+- maxProduct: [318. 最大单词长度乘积](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/)
+- countBits: [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
+
 
 
 -----------------------------------------------------
