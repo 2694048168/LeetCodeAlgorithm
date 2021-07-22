@@ -132,6 +132,12 @@
 - isPowerOfFour: [342. 4的幂](https://leetcode-cn.com/problems/power-of-four/)
 - maxProduct: [318. 最大单词长度乘积](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/)
 - countBits: [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
+- missingNumber: [268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)
+- hasAlternatingBits: [693. 交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)
+- findComplement: [476. 数字的补数](https://leetcode-cn.com/problems/number-complement/)
+- singleNumber3: [260. 只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii/)
+
+## 数据结构(C++)
 
 
 
