@@ -139,6 +139,12 @@
 
 ## 数据结构(C++)
 
+- findDisappearedNumbers: [448. 找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)
+- rotateImage: [48. 旋转图像](https://leetcode-cn.com/problems/rotate-image/)
+- searchMatrix: [240. 搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)
+- maxChunksToSorted: [769. 最多能完成排序的块](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/)
+
+
 
 
 -----------------------------------------------------
