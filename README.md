@@ -143,6 +143,11 @@
 - rotateImage: [48. 旋转图像](https://leetcode-cn.com/problems/rotate-image/)
 - searchMatrix: [240. 搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)
 - maxChunksToSorted: [769. 最多能完成排序的块](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/)
+- MyQueue: [232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+- MinStack : [155. 最小栈](https://leetcode-cn.com/problems/min-stack/)
+- isValid : [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+- dailyTemperatures : [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)
+- mergeKLists : [23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
 
 
 
