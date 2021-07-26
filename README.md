@@ -148,6 +148,11 @@
 - isValid : [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
 - dailyTemperatures : [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)
 - mergeKLists : [23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
+- getSkyline : [218. 天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)
+- maxSlidingWindow : [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
+- longestConsecutive : [128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
+- maxPoints : [149. 直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/)
+- findItinerary : [332. 重新安排行程](https://leetcode-cn.com/problems/reconstruct-itinerary/)
 
 
 
