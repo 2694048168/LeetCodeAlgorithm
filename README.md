@@ -153,6 +153,10 @@
 - longestConsecutive : [128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
 - maxPoints : [149. 直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/)
 - findItinerary : [332. 重新安排行程](https://leetcode-cn.com/problems/reconstruct-itinerary/)
+- NumArray : [303. 区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/)
+- NumMatrix : [304. 二维区域和检索 - 矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)
+- subarraySum : [560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
+- matrixReshape : [566. 重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix/)
 
 
 
