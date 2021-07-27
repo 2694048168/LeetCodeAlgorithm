@@ -157,6 +157,15 @@
 - NumMatrix : [304. 二维区域和检索 - 矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)
 - subarraySum : [560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
 - matrixReshape : [566. 重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix/)
+- MyStack : [225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)
+- nextGreaterElements : [503. 下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/)
+- containsDuplicate : [217. 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)
+- findShortestSubArray : [697. 数组的度](https://leetcode-cn.com/problems/degree-of-an-array/)
+- findLHS : [594. 最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence/)
+- findDuplicate : [287. 寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)
+- nthSuperUglyNumber : [313. 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)
+- advantageCount : [870. 优势洗牌](https://leetcode-cn.com/problems/advantage-shuffle/)
+- NumArray2 : [307. 区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/)
 
 
 
