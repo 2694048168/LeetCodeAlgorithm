@@ -167,6 +167,15 @@
 - advantageCount : [870. 优势洗牌](https://leetcode-cn.com/problems/advantage-shuffle/)
 - NumArray2 : [307. 区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/)
 
+## 字符串
+
+- isAnagram : [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
+- isIsomorphic : [205. 同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/)
+- countSubstrings : [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)
+- countBinarySubstrings : [696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)
+- calculate : [227. 基本计算器 II](https://leetcode-cn.com/problems/basic-calculator-ii/)
+- strStr : [28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)
+
 
 
 
