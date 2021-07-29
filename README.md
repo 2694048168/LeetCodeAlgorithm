@@ -175,8 +175,20 @@
 - countBinarySubstrings : [696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)
 - calculate : [227. 基本计算器 II](https://leetcode-cn.com/problems/basic-calculator-ii/)
 - strStr : [28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)
+- longestPalindrome : [409. 最长回文串](https://leetcode-cn.com/problems/longest-palindrome/)
+- lengthOfLongestSubstring : [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+- longestSubPalindrome : [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
+
+## 指针-链表
+
+- reverseList : [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 
 
+
+## 指针-图
+
+
+## 指针-树
 
 
 -----------------------------------------------------
