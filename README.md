@@ -182,8 +182,14 @@
 ## 指针-链表
 
 - reverseList : [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
-
-
+- mergeTwoLists : [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+- swapPairs : [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
+- getIntersectionNode : [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
+- isPalindrome : [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
+- deleteDuplicates : [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
+- oddEvenList : [328. 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)
+- removeNthFromEnd : [19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+- sortList : [148. 排序链表](https://leetcode-cn.com/problems/sort-list/)
 
 ## 指针-图
 
