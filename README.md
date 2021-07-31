@@ -191,10 +191,20 @@
 - removeNthFromEnd : [19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 - sortList : [148. 排序链表](https://leetcode-cn.com/problems/sort-list/)
 
-## 指针-图
-
-
 ## 指针-树
+
+- maxDepth : [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+- isBalanced : [110. 平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
+- diameterOfBinaryTree : [543. 二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)
+- pathSum : [437. 路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/)
+- isSymmetric : [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
+- delNodes : [1110. 删点成林](https://leetcode-cn.com/problems/delete-nodes-and-return-forest/)
+- averageOfLevels : [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)
+- buildTree : [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+- preorderTraversal : [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+
+
+## 指针-图
 
 
 -----------------------------------------------------
