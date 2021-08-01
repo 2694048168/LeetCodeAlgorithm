@@ -207,6 +207,12 @@
 - Trie : [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
 - invertTree : [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
 - mergeTrees : [617. 合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/)
+- isSubtree : [572. 另一棵树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/)
+- sumOfLeftLeaves : [404. 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/)
+- findBottomLeftValue : [513. 找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)
+- convertBST : [538. 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)
+- lowestCommonAncestor : [235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+- getMinimumDifference : [530. 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)
 
 
 ## 指针-图
