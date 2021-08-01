@@ -202,6 +202,11 @@
 - averageOfLevels : [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)
 - buildTree : [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - preorderTraversal : [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+- recoverTree : [99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)
+- trimBST : [669. 修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/)
+- Trie : [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
+- invertTree : [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
+- mergeTrees : [617. 合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/)
 
 
 ## 指针-图
