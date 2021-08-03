@@ -1,11 +1,36 @@
 ![algorithms Logo](./logo.png)
 
 ------------------------------------------------------
+
+# 算法理论基础
+
+- 《算法导论》和《算法4》
+
+- 时间复杂度和空间复杂度权衡,时间复杂度的提升是以空间复杂度为代价的
+
+- 仔细观察，LeetCode 上对每一次代码的提交的 执行时间 && 消耗内存
+
+- 效率 = 算法效率 + 编程语言效率 + 计算机硬件效率
+
+- 大O符号 (Big O notation)，又称为渐进符号，是用于描述函数渐近行为的数学符号
+
+- 计算机语言有两大特性：生产效率 && 运行效率
+
+- C++ 运行效率比 Python 高；Python 生产效率比 C++ 高
+
+-----------------------------------------------------
+
 # LeetCode 分类刷题
 
 数组  https://leetcode-cn.com/tag/array/problemset/
 
 
+
+-----------------------------------------------------
+
+# Reference
+
+LeetCode 101: A LeetCode Grinding Guide (C++ Version)
 
 -----------------------------------------------------
 
@@ -232,34 +257,13 @@
 ## 复杂的数据结构——并查集
 
 - findRedundantConnection : [684. 冗余连接](https://leetcode-cn.com/problems/redundant-connection/)
-
-
------------------------------------------------------
-
-# Reference
-
-LeetCode 101: A LeetCode Grinding Guide (C++ Version)
+- LRUCache : [146. LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)
+- RandomizedSet : [380. O(1) 时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)
+- AllOne : [432. 全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/)
+- AllOne : [432. 全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/)
 
 -----------------------------------------------------
 
-# 算法理论基础
-
-- 《算法导论》和《算法4》
-
-- 时间复杂度和空间复杂度权衡,时间复杂度的提升是以空间复杂度为代价的
-
-- 仔细观察，LeetCode 上对每一次代码的提交的 执行时间 && 消耗内存
-
-- 效率 = 算法效率 + 编程语言效率 + 计算机硬件效率
-
-- 大O符号 (Big O notation)，又称为渐进符号，是用于描述函数渐近行为的数学符号
-
-- 计算机语言有两大特性：生产效率 && 运行效率
-
-- C++ 运行效率比 Python 高；Python 生产效率比 C++ 高
-
-
------------------------------------------------------
 
 # Coding Standard
 - [Google style for CPP](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/)
