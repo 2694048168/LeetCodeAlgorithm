@@ -225,6 +225,14 @@
 
 ## 指针-图
 
+- isBipartite : [785. 判断二分图](https://leetcode-cn.com/problems/is-graph-bipartite/)
+- findOrder : [210. 课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/)
+- reachableNodes : [882. 细分图中的可到达结点](https://leetcode-cn.com/problems/reachable-nodes-in-subdivided-graph/)
+
+## 复杂的数据结构——并查集
+
+- findRedundantConnection : [684. 冗余连接](https://leetcode-cn.com/problems/redundant-connection/)
+
 
 -----------------------------------------------------
 
