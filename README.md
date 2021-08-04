@@ -22,8 +22,20 @@
 
 # LeetCode 分类刷题
 
-数组  https://leetcode-cn.com/tag/array/problemset/
+[数组]  https://leetcode-cn.com/tag/array/problemset/
 
+- removeDuplicates: [26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+
+
+[字符串]  https://leetcode-cn.com/tag/string/problemset/
+
+[贪心]  https://leetcode-cn.com/tag/greedy/problemset/
+
+[双指针]  https://leetcode-cn.com/tag/two-pointers/problemset/
+
+[哈希表]  https://leetcode-cn.com/tag/hash-table/problemset/
+
+[动态规划]  https://leetcode-cn.com/tag/dynamic-programming/problemset/
 
 
 -----------------------------------------------------
@@ -263,7 +275,6 @@ LeetCode 101: A LeetCode Grinding Guide (C++ Version)
 - AllOne : [432. 全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/)
 
 -----------------------------------------------------
-
 
 # Coding Standard
 - [Google style for CPP](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/)
