@@ -25,6 +25,7 @@
 [数组]  https://leetcode-cn.com/tag/array/problemset/
 
 - removeDuplicates: [26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+- removeElement: [27. 移除元素](https://leetcode-cn.com/problems/remove-element/)
 
 
 [字符串]  https://leetcode-cn.com/tag/string/problemset/
