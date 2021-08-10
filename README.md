@@ -27,6 +27,7 @@
 - removeDuplicates: [26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 - removeElement: [27. 移除元素](https://leetcode-cn.com/problems/remove-element/)
 - maxArea: [11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)
+- threeSum: [15. 三数之和](https://leetcode-cn.com/problems/3sum/)
 
 
 [字符串]  https://leetcode-cn.com/tag/string/problemset/
