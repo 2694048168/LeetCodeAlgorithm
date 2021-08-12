@@ -29,7 +29,7 @@
 - maxArea: [11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)
 - threeSum: [15. 三数之和](https://leetcode-cn.com/problems/3sum/)
 - threeSumClosest: [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/)
-
+- firstMissingPositive: [41. 缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/)
 
 [字符串]  https://leetcode-cn.com/tag/string/problemset/
 
