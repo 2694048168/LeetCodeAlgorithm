@@ -30,6 +30,7 @@
 - threeSum: [15. 三数之和](https://leetcode-cn.com/problems/3sum/)
 - threeSumClosest: [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/)
 - firstMissingPositive: [41. 缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/)
+- largestRectangleArea: [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
 
 [字符串]  https://leetcode-cn.com/tag/string/problemset/
 
