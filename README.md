@@ -38,6 +38,9 @@
 
 - romanToInt: [13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)
 - longestCommonPrefix: [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
+- convert: [6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)
+- myAtoi: [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)
+- intToRoman: [12. 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/)
 
 [贪心]  https://leetcode-cn.com/tag/greedy/problemset/
 
