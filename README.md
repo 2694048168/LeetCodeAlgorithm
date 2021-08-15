@@ -36,6 +36,8 @@
 
 [字符串]  https://leetcode-cn.com/tag/string/problemset/
 
+- romanToInt: [13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)
+- longestCommonPrefix: [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
 
 [贪心]  https://leetcode-cn.com/tag/greedy/problemset/
 
