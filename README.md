@@ -41,6 +41,10 @@
 - convert: [6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)
 - myAtoi: [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)
 - intToRoman: [12. 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/)
+- findSubstring: [30. 串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
+- longestValidParentheses: [32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)
+- isMatchSimple: [44. 通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/)
+- isNumber: [65. 有效数字](https://leetcode-cn.com/problems/valid-number/)
 
 [贪心]  https://leetcode-cn.com/tag/greedy/problemset/
 
