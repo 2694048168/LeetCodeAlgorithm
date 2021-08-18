@@ -48,6 +48,10 @@
 
 [贪心]  https://leetcode-cn.com/tag/greedy/problemset/
 
+- arrayPairSum: [561. 数组拆分 I](https://leetcode-cn.com/problems/array-partition-i/)
+- lemonadeChange: [860. 柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)
+
+
 [双指针]  https://leetcode-cn.com/tag/two-pointers/problemset/
 
 [哈希表]  https://leetcode-cn.com/tag/hash-table/problemset/
