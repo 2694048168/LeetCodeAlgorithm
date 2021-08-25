@@ -50,7 +50,13 @@
 
 - arrayPairSum: [561. 数组拆分 I](https://leetcode-cn.com/problems/array-partition-i/)
 - lemonadeChange: [860. 柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)
-
+- jump: [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)
+- canJump: [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
+- canCompleteCircuit: [134. 加油站](https://leetcode-cn.com/problems/gas-station/)
+- maxNumber: [321. 拼接最大数](https://leetcode-cn.com/problems/create-maximum-number/)
+- minPatches: [330. 按要求补齐数组](https://leetcode-cn.com/problems/patching-array/)
+- splitArray: [410. 分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/)
+- findMaximizedCapital: [502. IPO](https://leetcode-cn.com/problems/ipo/)
 
 [双指针]  https://leetcode-cn.com/tag/two-pointers/problemset/
 
