@@ -60,6 +60,11 @@
 
 [双指针]  https://leetcode-cn.com/tag/two-pointers/problemset/
 
+- isPalindromeCheck: [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)
+- hasCycle: [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+- moveZeroes: [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)
+
+
 [哈希表]  https://leetcode-cn.com/tag/hash-table/problemset/
 
 [动态规划]  https://leetcode-cn.com/tag/dynamic-programming/problemset/
