@@ -63,7 +63,12 @@
 - isPalindromeCheck: [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)
 - hasCycle: [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
 - moveZeroes: [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)
-
+- fourSum: [18. 四数之和](https://leetcode-cn.com/problems/4sum/)
+- nextPermutation: [31. 下一个排列](https://leetcode-cn.com/problems/next-permutation/)
+- maxSum: [1537. 最大得分](https://leetcode-cn.com/problems/get-the-maximum-score/)
+- smallestDistancePair: [719. 找出第 k 小的距离对](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/)
+- countPairs: [1782. 统计点对的数目](https://leetcode-cn.com/problems/count-pairs-of-nodes/)
+- trapMIN: [面试题 17.21. 直方图的水量](https://leetcode-cn.com/problems/volume-of-histogram-lcci/)
 
 [哈希表]  https://leetcode-cn.com/tag/hash-table/problemset/
 
