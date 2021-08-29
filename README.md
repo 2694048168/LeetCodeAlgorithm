@@ -72,6 +72,11 @@
 
 [哈希表]  https://leetcode-cn.com/tag/hash-table/problemset/
 
+- wordPattern: [290. 单词规律](https://leetcode-cn.com/problems/word-pattern/)
+- firstUniqChar: [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
+- letterCombinations: [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
+
+
 [动态规划]  https://leetcode-cn.com/tag/dynamic-programming/problemset/
 
 
