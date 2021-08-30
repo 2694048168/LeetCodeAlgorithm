@@ -77,7 +77,10 @@
 - letterCombinations: [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
 - groupAnagrams: [49. 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)
 - setZeroes: [73. 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/)
-
+- countOfAtoms: [726. 原子的数量](https://leetcode-cn.com/problems/number-of-atoms/)
+- smallestRange: [632. 最小区间](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/)
+- findNumOfValidWords: [1178. 猜字谜](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle/)
+- longestAwesome: [找出最长的超赞子字符串](https://leetcode-cn.com/problems/find-longest-awesome-substring/)
 
 [动态规划]  https://leetcode-cn.com/tag/dynamic-programming/problemset/
 
