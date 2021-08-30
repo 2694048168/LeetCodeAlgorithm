@@ -75,6 +75,8 @@
 - wordPattern: [290. 单词规律](https://leetcode-cn.com/problems/word-pattern/)
 - firstUniqChar: [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
 - letterCombinations: [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
+- groupAnagrams: [49. 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)
+- setZeroes: [73. 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/)
 
 
 [动态规划]  https://leetcode-cn.com/tag/dynamic-programming/problemset/
