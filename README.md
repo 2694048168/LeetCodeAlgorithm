@@ -80,9 +80,15 @@
 - countOfAtoms: [726. 原子的数量](https://leetcode-cn.com/problems/number-of-atoms/)
 - smallestRange: [632. 最小区间](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/)
 - findNumOfValidWords: [1178. 猜字谜](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle/)
-- longestAwesome: [找出最长的超赞子字符串](https://leetcode-cn.com/problems/find-longest-awesome-substring/)
+- longestAwesome: [1542. 找出最长的超赞子字符串](https://leetcode-cn.com/problems/find-longest-awesome-substring/)
 
 [动态规划]  https://leetcode-cn.com/tag/dynamic-programming/problemset/
+
+- generate: [118. 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)
+- minCostClimbingStairs: [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
+- uniquePaths: [62. 不同路径](https://leetcode-cn.com/problems/unique-paths/)
+- minimumTotal: [120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle/)
+- numTrees: [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)
 
 
 -----------------------------------------------------
