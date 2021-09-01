@@ -89,7 +89,10 @@
 - uniquePaths: [62. 不同路径](https://leetcode-cn.com/problems/unique-paths/)
 - minimumTotal: [120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle/)
 - numTrees: [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)
-
+- isScramble: [87. 扰乱字符串](https://leetcode-cn.com/problems/scramble-string/)
+- numDistinct: [115. 不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/)
+- maxPathSum: [124. 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
+- longestIncreasingPath: [329. 矩阵中的最长递增路径](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/)
 
 -----------------------------------------------------
 
