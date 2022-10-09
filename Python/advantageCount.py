@@ -7,7 +7,7 @@
 @Link: https://leetcode-cn.com/problems/advantage-shuffle/
 @Python Version: 3.8
 @Author: Wei Li
-@Date：2021-07-27
+@Date: 2021-07-27
 """
 
 
